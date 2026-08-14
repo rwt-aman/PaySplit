@@ -1,0 +1,28 @@
+# Backend (Java/Maven)
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+
+# Frontend (Node/React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Secrets — real config files with passwords/keys, never pushed
+backend/src/main/resources/application.yml
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.env.local
+application-secrets.yml
